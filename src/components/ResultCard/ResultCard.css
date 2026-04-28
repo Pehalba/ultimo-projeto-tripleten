@@ -30,3 +30,19 @@
   font-size: 14px;
   color: #9ca3af;
 }
+
+.result-card__button {
+  margin-top: 4px;
+  min-height: 34px;
+  border: none;
+  border-radius: 6px;
+  padding: 0 12px;
+  background: #2563eb;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.result-card__button:hover {
+  opacity: 0.85;
+}

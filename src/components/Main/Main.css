@@ -1,22 +1,60 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.main__hero,
+.main__guide {
+  border: 1px solid #263446;
+  border-radius: 10px;
+  background: #101b31;
   padding: 20px;
-  flex: 1;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .main__title {
-  margin: 0 0 8px;
+  margin: 0 0 10px;
 }
 
 .main__text {
-  margin: 0 0 16px;
+  margin: 0 0 10px;
+  color: #d1d5db;
+}
+
+.main__button {
+  display: inline-block;
+  margin-top: 6px;
+  min-height: 38px;
+  line-height: 38px;
+  border-radius: 6px;
+  padding: 0 14px;
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.main__button:hover {
+  opacity: 0.85;
+}
+
+.main__guide-title {
+  margin: 0 0 8px;
+}
+
+.main__guide-list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.main__guide-item {
+  margin: 0 0 6px;
+  color: #d1d5db;
 }
 
 @media (max-width: 680px) {
-  .main {
-    padding: 16px;
+  .main__hero,
+  .main__guide {
+    padding: 14px;
   }
 }

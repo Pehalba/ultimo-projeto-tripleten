@@ -14,10 +14,10 @@ function App() {
         <Route
           path="/"
           element={
-            <>
+            <div className="home">
               <Main />
               <About />
-            </>
+            </div>
           }
         />
         <Route path="/dados" element={<DataPage />} />
