@@ -21,6 +21,8 @@
   border: 1px solid #9ca3af;
   border-radius: 6px;
   padding: 0 12px;
+  color: #111827;
+  background: #f9fafb;
 }
 
 .search-form__input:focus {

@@ -1,12 +1,16 @@
 .navigation {
   display: flex;
   gap: 16px;
+  align-items: center;
+  padding-top: 4px;
 }
 
 .navigation__link {
   color: #fff;
   text-decoration: none;
   transition: opacity 0.2s;
+  font-size: 16px;
+  line-height: 1.2;
 }
 
 .navigation__link:hover {
@@ -15,4 +19,11 @@
 
 .navigation__link_active {
   text-decoration: underline;
+}
+
+@media (max-width: 680px) {
+  .navigation {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
 }

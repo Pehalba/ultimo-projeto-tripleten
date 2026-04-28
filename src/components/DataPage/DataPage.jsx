@@ -41,6 +41,12 @@ function DataPage() {
 
       {isLoading && <Preloader />}
 
+      {hasSearched && !isLoading && results.length > 0 && (
+        <p className="data-page__count">
+          Resultado(s) encontrado(s): {results.length}
+        </p>
+      )}
+
       {hasSearched && !isLoading && results.length === 0 && <NotFound />}
 
       {results.length > 0 && (
