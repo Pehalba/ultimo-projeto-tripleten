@@ -1,5 +1,4 @@
 import './Main.css'
-import Preloader from '../Preloader/Preloader'
 
 function Main() {
   return (
@@ -8,7 +7,6 @@ function Main() {
       <p className="main__text">
         Aqui vai a descricao do projeto e depois os dados da API.
       </p>
-      <Preloader />
     </main>
   )
 }
