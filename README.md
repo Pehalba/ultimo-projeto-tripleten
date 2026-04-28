@@ -5,6 +5,7 @@ Projeto front-end desenvolvido com React e Vite.
 ## Sobre o projeto
 
 Este app permite buscar paises e mostrar informacoes em cards:
+
 - bandeira
 - nome
 - capital
@@ -12,6 +13,7 @@ Este app permite buscar paises e mostrar informacoes em cards:
 - populacao
 
 Tambem possui:
+
 - preloader
 - mensagem de erro
 - mensagem "Nada encontrado"
@@ -41,3 +43,5 @@ npm run build
 ## Projeto online
 
 https://capable-cobbler-5fab67.netlify.app
+
+Projeto finalizado para entrega da etapa front-end.
