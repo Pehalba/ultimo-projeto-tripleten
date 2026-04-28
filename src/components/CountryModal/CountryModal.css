@@ -1,0 +1,49 @@
+.country-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  z-index: 20;
+}
+
+.country-modal__content {
+  width: 100%;
+  max-width: 560px;
+  background: #111827;
+  border: 1px solid #374151;
+  border-radius: 10px;
+  padding: 18px;
+  position: relative;
+}
+
+.country-modal__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border: none;
+  background: #1f2937;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.country-modal__flag {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.country-modal__title {
+  margin: 0 0 12px;
+}
+
+.country-modal__text {
+  margin: 0 0 8px;
+}

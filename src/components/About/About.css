@@ -1,11 +1,8 @@
 .about {
   padding: 24px 20px;
-  background: #e5e7eb;
+  background: #dfe4eb;
   color: #111827;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box;
+  border-radius: 10px;
 }
 
 .about__title {
@@ -14,8 +11,12 @@
 }
 
 .about__text {
-  margin: 0;
+  margin: 0 0 8px;
   color: #374151;
+}
+
+.about__text:last-child {
+  margin-bottom: 0;
 }
 
 @media (max-width: 680px) {
