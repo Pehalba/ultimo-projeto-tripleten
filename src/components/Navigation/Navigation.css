@@ -1,0 +1,18 @@
+.navigation {
+  display: flex;
+  gap: 16px;
+}
+
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.navigation__link:hover {
+  opacity: 0.8;
+}
+
+.navigation__link_active {
+  text-decoration: underline;
+}

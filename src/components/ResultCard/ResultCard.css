@@ -1,0 +1,21 @@
+.result-card {
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 14px;
+  background: #111827;
+}
+
+.result-card__title {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.result-card__description {
+  margin: 0 0 8px;
+}
+
+.result-card__category {
+  margin: 0;
+  font-size: 14px;
+  color: #9ca3af;
+}

@@ -1,0 +1,14 @@
+.not-found {
+  border: 1px dashed #6b7280;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+}
+
+.not-found__title {
+  margin: 0 0 8px;
+}
+
+.not-found__text {
+  margin: 0;
+}
